@@ -12,5 +12,3 @@ li.forEach((element) => {
     console.log(`Elements : ${everyli.length}`);
   });
 });
-
-li.forEach((element) => {});
