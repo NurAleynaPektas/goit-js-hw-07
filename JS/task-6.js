@@ -1,7 +1,7 @@
 let div = document.querySelector("#controls");
-let input1 = controls.querySelector("input");
-let createBtn = controls.querySelector("[data-create]");
-let destroyBtn = controls.querySelector("[data-destroy]");
+let input1 = div.querySelector("input");
+let createBtn = div.querySelector("[data-create]");
+let destroyBtn = div.querySelector("[data-destroy]");
 let boxes = document.querySelector("#boxes");
 
 createBtn.addEventListener("click", () => {
